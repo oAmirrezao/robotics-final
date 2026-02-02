@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ROS build folders
+build/
+install/
+log/
+
+# ROS generated files
+devel/
+build_isolated/
+devel_isolated/
+
+# Ignore the virtual environment if it were inside the project
+# (Ours is outside, but this is good practice)
+venv/
+my_ros_venv/
+*.venv
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.swp
+*.swo
